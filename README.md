@@ -96,6 +96,7 @@ curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" localhost
 ### Docker
   * Dockerize the application located in **src**
   * Push it to a public image in DockerHub tagged as **`wize-<firstName>-<lastName>:latest`**
+  * Image is pushed. To pull from DockerHub: **`docker pull 13520114/wize-danh-vo:latest`**
   * Application should run in port **`8000`**
 <br />
 <br />
